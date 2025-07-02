@@ -1,0 +1,33 @@
+.album > .container > .row > .col > .card {
+    border: 2px solid rgb(26, 26, 26);
+    background-color: rgb(9, 9, 9);
+}
+
+.card-body {
+    background-color: rgb(9, 9, 9);
+    border-radius: 0 0 5px 5px ;
+    border-top: 2px solid rgb(26, 26, 26);
+}
+
+.card-text {
+    color: beige;
+}
+
+.album > .container > .row > .col > .card > .d-flex > .btn-group {
+    margin-bottom: 15px;
+    margin-left: 15px;
+
+}
+
+.album > .container > .row > .col > .card > .d-flex > .btn-group > button {
+    color: beige;
+    border-color: rgb(26, 26, 26);
+}
+
+.album > .container > .row > .col > .card > .d-flex > .btn-group > button:hover {
+    background-color: rgb(26, 26, 26);
+}
+
+.preset-name {
+    color: rgb(0, 212, 71);
+}
