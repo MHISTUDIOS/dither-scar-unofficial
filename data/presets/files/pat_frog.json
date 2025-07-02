@@ -1,0 +1,24 @@
+{
+  "name": "preset_1739995880898.json",
+  "settings": {
+    "dithering": "pattern-dither",
+    "scale": "100",
+    "invert": false,
+    "contrast": "35",
+    "midtones": "100",
+    "highlights": "109",
+    "luminance": "95",
+    "blur": "0",
+    "noiseIntensity": "10",
+    "thresholdOffset": "0",
+    "showBeforeAfter": false,
+    "useTransparent": false,
+    "enablePalette": true,
+    "paletteSelect": "12",
+    "selectedPalette": {
+      "name": "Deep Blue",
+      "dark": "#000033",
+      "light": "#CCCCFF"
+    }
+  }
+}

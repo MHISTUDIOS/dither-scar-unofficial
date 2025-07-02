@@ -1,0 +1,24 @@
+{
+  "name": "creepy_red.json",
+  "settings": {
+    "dithering": "stucki",
+    "scale": "100",
+    "invert": false,
+    "contrast": "100",
+    "midtones": "100",
+    "highlights": "100",
+    "luminance": "60",
+    "blur": "0",
+    "noiseIntensity": "0",
+    "thresholdOffset": "0",
+    "showBeforeAfter": false,
+    "useTransparent": false,
+    "enablePalette": true,
+    "paletteSelect": "1",
+    "selectedPalette": {
+      "name": "Soft Contrast",
+      "dark": "#1C1C1C",
+      "light": "#f00000"
+    }
+  }
+}

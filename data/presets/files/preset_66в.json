@@ -1,0 +1,24 @@
+{
+  "name": "preset_66e.json",
+  "settings": {
+    "dithering": "gradient-dither",
+    "scale": "100",
+    "invert": false,
+    "contrast": "149",
+    "midtones": "100",
+    "highlights": "64",
+    "luminance": "100",
+    "blur": "0",
+    "noiseIntensity": "0",
+    "thresholdOffset": "0",
+    "showBeforeAfter": false,
+    "useTransparent": false,
+    "enablePalette": true,
+    "paletteSelect": "29",
+    "selectedPalette": {
+      "name": "Ruby",
+      "dark": "#9B111E",
+      "light": "#000000"
+    }
+  }
+}

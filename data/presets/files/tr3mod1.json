@@ -1,0 +1,26 @@
+{
+  "name": "tr3mod1.json",
+  "settings": {
+    "dithering": "ordered",
+    "scale": "100",
+    "invert": false,
+    "contrast": "116",
+    "midtones": "100",
+    "highlights": "74",
+    "luminance": "98",
+    "blur": "0",
+    "noiseIntensity": "0",
+    "thresholdOffset": "-25",
+    "saturation": "73",
+    "hue": "-13",
+    "showBeforeAfter": true,
+    "useTransparent": false,
+    "enablePalette": false,
+    "paletteSelect": "auto",
+    "rbgMode": true,
+    "selectedPalette": {
+      "dark": "#000000",
+      "light": "#FFFFFF"
+    }
+  }
+}

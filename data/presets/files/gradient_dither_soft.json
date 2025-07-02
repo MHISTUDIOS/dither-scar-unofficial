@@ -1,0 +1,24 @@
+{
+  "name": "gradient_dither_soft.json",
+  "settings": {
+    "dithering": "gradient-dither",
+    "scale": "100",
+    "invert": false,
+    "contrast": "100",
+    "midtones": "88",
+    "highlights": "70",
+    "luminance": "101",
+    "blur": "0",
+    "noiseIntensity": "0",
+    "thresholdOffset": "-5",
+    "showBeforeAfter": false,
+    "useTransparent": false,
+    "enablePalette": true,
+    "paletteSelect": "1",
+    "selectedPalette": {
+      "name": "Soft Contrast",
+      "dark": "#1C1C1C",
+      "light": "#F0F0F0"
+    }
+  }
+}

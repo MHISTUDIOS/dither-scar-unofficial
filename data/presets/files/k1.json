@@ -1,0 +1,24 @@
+{
+  "name": "k1.json",
+  "settings": {
+    "dithering": "floyd-steinberg",
+    "scale": "37",
+    "invert": false,
+    "contrast": "121",
+    "midtones": "100",
+    "highlights": "113",
+    "luminance": "100",
+    "blur": "0",
+    "noiseIntensity": "40",
+    "thresholdOffset": "0",
+    "showBeforeAfter": false,
+    "useTransparent": false,
+    "enablePalette": true,
+    "paletteSelect": "8",
+    "selectedPalette": {
+      "name": "Ocean",
+      "dark": "#000000",
+      "light": "#fafafa"
+    }
+  }
+}

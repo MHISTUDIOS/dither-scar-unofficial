@@ -1,0 +1,23 @@
+{
+  "name": "web6.json",
+  "settings": {
+    "dithering": "atkinson",
+    "scale": "47",
+    "invert": false,
+    "contrast": "148",
+    "midtones": "100",
+    "highlights": "75",
+    "luminance": "123",
+    "blur": "0",
+    "noiseIntensity": "0",
+    "thresholdOffset": "-3",
+    "showBeforeAfter": false,
+    "useTransparent": false,
+    "enablePalette": true,
+    "paletteSelect": "auto",
+    "selectedPalette": {
+      "dark": "#000000",
+      "light": "#00fa2a"
+    }
+  }
+}

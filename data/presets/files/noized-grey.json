@@ -1,0 +1,24 @@
+{
+  "name": "noized-grey.json",
+  "settings": {
+    "dithering": "random",
+    "scale": "100",
+    "invert": false,
+    "contrast": "100",
+    "midtones": "100",
+    "highlights": "92",
+    "luminance": "97",
+    "blur": "0",
+    "noiseIntensity": "0",
+    "thresholdOffset": "0",
+    "showBeforeAfter": false,
+    "useTransparent": false,
+    "enablePalette": true,
+    "paletteSelect": "4",
+    "selectedPalette": {
+      "name": "Subtle",
+      "dark": "#4D4D4D",
+      "light": "#C2C2C2"
+    }
+  }
+}

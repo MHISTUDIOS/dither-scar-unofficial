@@ -1,0 +1,23 @@
+{
+  "name": "pixelate_castle.json",
+  "settings": {
+    "dithering": "striped-dither",
+    "scale": "61",
+    "invert": false,
+    "contrast": "143",
+    "midtones": "100",
+    "highlights": "144",
+    "luminance": "100",
+    "blur": "0",
+    "noiseIntensity": "0",
+    "thresholdOffset": "-8",
+    "showBeforeAfter": false,
+    "useTransparent": false,
+    "enablePalette": false,
+    "paletteSelect": "auto",
+    "selectedPalette": {
+      "dark": "#000000",
+      "light": "#FFFFFF"
+    }
+  }
+}

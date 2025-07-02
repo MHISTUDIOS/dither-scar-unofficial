@@ -1,0 +1,24 @@
+{
+  "name": "es1.json",
+  "settings": {
+    "dithering": "floyd-steinberg",
+    "scale": "53",
+    "invert": false,
+    "contrast": "113",
+    "midtones": "100",
+    "highlights": "107",
+    "luminance": "100",
+    "blur": "0",
+    "noiseIntensity": "0",
+    "thresholdOffset": "0",
+    "showBeforeAfter": false,
+    "useTransparent": false,
+    "enablePalette": true,
+    "paletteSelect": "2",
+    "selectedPalette": {
+      "name": "Sleek",
+      "dark": "#000000",
+      "light": "#E2E2E2"
+    }
+  }
+}

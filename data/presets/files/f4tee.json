@@ -1,0 +1,26 @@
+{
+  "name": "f4tee.json",
+  "settings": {
+    "dithering": "dot-dither",
+    "scale": "100",
+    "invert": false,
+    "contrast": "100",
+    "midtones": "100",
+    "highlights": "100",
+    "luminance": "100",
+    "blur": "0",
+    "noiseIntensity": "64",
+    "thresholdOffset": "0",
+    "saturation": "50",
+    "hue": "0",
+    "showBeforeAfter": false,
+    "useTransparent": false,
+    "enablePalette": false,
+    "paletteSelect": "auto",
+    "rbgMode": true,
+    "selectedPalette": {
+      "dark": "#000000",
+      "light": "#FFFFFF"
+    }
+  }
+}

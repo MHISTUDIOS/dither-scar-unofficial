@@ -1,0 +1,23 @@
+{
+  "name": "dd2.json",
+  "settings": {
+    "dithering": "zigzag-dither",
+    "scale": "55",
+    "invert": false,
+    "contrast": "167",
+    "midtones": "100",
+    "highlights": "200",
+    "luminance": "114",
+    "blur": "0",
+    "noiseIntensity": "0",
+    "thresholdOffset": "0",
+    "showBeforeAfter": false,
+    "useTransparent": false,
+    "enablePalette": true,
+    "paletteSelect": "auto",
+    "selectedPalette": {
+      "dark": "#000000",
+      "light": "#fa0000"
+    }
+  }
+}
