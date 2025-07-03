@@ -1,14 +1,30 @@
 * {
     overflow-x: hidden;
+    /* overflow-y: hidden; */
+    /* height: auto; */
+}
+
+* > h3 {
+    overflow-y: hidden;
+}
+
+.logo {
+    overflow-y: hidden;
+}
+
+.spicy-part .spicy-video .spicy-video-box video{
+    overflow-y: hidden;
 }
 
 body {
     margin: 0;
     padding: 0;
+    /* overflow-y: scroll; */
 }
 
 h1 {
     font-weight: 800;
+    overflow-y: hidden;
 }
 
 .navbar {
@@ -102,6 +118,7 @@ h1 {
 .logo > img {
     height: 120%;
     width: auto;
+    overflow-y: hidden;
     
 }
 
@@ -201,7 +218,7 @@ video {
 }
 
 .footer {
-    height: 30vh;
+    height: 40vh;
     justify-content: center;
     align-items: center;
 }
@@ -217,6 +234,7 @@ video {
 
 .footer-logo > img {
     height: 100%;
+    overflow-y: hidden;
 }
 
 .links > a > img {
