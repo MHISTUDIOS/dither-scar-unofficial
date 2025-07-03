@@ -225,13 +225,13 @@ h1 {
 }
 
 .interface-video-box > video {
-    height: 100% !important;
-    width: 100% !important;
+    /* height: 100% !important;
+    width: 100% !important; */
 }
 
 .spicy-video-box > video {
-    height: 100% !important;
-    width: 100% !important;
+    /* height: 100% !important;
+    width: 100% !important; */
 }
 
 .free-part {
@@ -431,7 +431,7 @@ video {
 
 @media screen and (min-width: 1680px){
     .interface-video-box > video {
-        height: 150%;
+        height: 100%;
     }
 
     .spicy-video-box > video {
@@ -455,7 +455,7 @@ video {
 
 @media screen and (min-width: 2000px){
     .spicy-video-box > video {
-        height: 110%;
+        height: 100%;
     }
 
     .footer {
@@ -465,7 +465,7 @@ video {
 
 @media screen and (min-width: 2400px){
     .spicy-video-box > video {
-        height: 130%;
+        height: 100%;
     }
 
     .footer {
@@ -475,7 +475,7 @@ video {
 
 @media screen and (min-width: 2800px){
     .spicy-video-box > video {
-        height: 150%;
+        height: 100%;
     }
 
     .footer {
