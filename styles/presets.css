@@ -19,13 +19,17 @@
 
 }
 
-.album > .container > .row > .col > .card > .d-flex > .btn-group > button {
+.album > .container > .row > .col > .card > .d-flex > .btn-group > a > button {
     color: beige;
     border-color: rgb(26, 26, 26);
 }
 
-.album > .container > .row > .col > .card > .d-flex > .btn-group > button:hover {
+.album > .container > .row > .col > .card > .d-flex > .btn-group > a > button:hover {
     background-color: rgb(26, 26, 26);
+}
+
+.album > .container > .row > .col > .card > .d-flex > .btn-group > a {
+    text-decoration: none;
 }
 
 .preset-name {
