@@ -8,6 +8,10 @@
     overflow-y: hidden;
 }
 
+* > h2 {
+    overflow-y: hidden;
+}
+
 .logo {
     overflow-y: hidden;
 }
@@ -65,6 +69,10 @@ h1 {
     background-position: center;
     background-blend-mode: darken;
 
+}
+
+.main-part > .logo > img {
+    overflow-y: hidden;
 }
 
 .main-text {
@@ -256,6 +264,16 @@ video {
 }
 
 
+.cards-part {
+    height: auto;
+}
+
+
+@media screen and (max-width: 576px){
+    .footer {
+        height: 60vh;
+    }
+}
 
 @media screen and (min-width: 576px){
     .interface-video-box > video {
@@ -265,6 +283,11 @@ video {
     .spicy-video-box > video {
         height: 60%;
     }
+
+    .footer {
+        height: 60vh;
+    }
+
 }
 
 @media screen and (min-width: 768px){
