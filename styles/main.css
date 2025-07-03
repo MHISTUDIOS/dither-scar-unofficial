@@ -4,12 +4,31 @@
     /* height: auto; */
 }
 
+* > h1 {
+    font-family: "Syne Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+}
+
 * > h3 {
     overflow-y: hidden;
+    font-family: "Sono", monospace;
+    font-weight: 100;
+    font-style: normal;
 }
 
 * > h2 {
     overflow-y: hidden;
+
+    overflow-y: hidden;
+    font-family: "Sono", monospace;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.main-container {
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .logo {
@@ -21,8 +40,8 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
     /* overflow-y: scroll; */
 }
 
@@ -96,6 +115,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid rgb(46, 46, 46);
     /* width: auto; */
 }
 
@@ -188,6 +208,16 @@ h1 {
     /* background-color: aquamarine; */
 }
 
+.interface-video-box > video {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.spicy-video-box > video {
+    height: 100% !important;
+    width: 100% !important;
+}
+
 .free-part {
     align-items: center;
     justify-content: center;
@@ -230,6 +260,7 @@ video {
     justify-content: center;
     align-items: center;
 }
+
 
 .footer-logo {
     display: flex;
@@ -298,6 +329,7 @@ video {
     .spicy-video-box > video {
         height: 80%;
     }
+
 }
 
 @media screen and (min-width: 992px){
@@ -308,27 +340,39 @@ video {
     .spicy-video-box > video {
         height: 90%;
     }
+    
+    .footer {
+        height: 40vh;
+    }
 }
 
 
 @media screen and (min-width: 1200px){
     .interface-video-box > video {
-        height: 110%;
+        height: 100%;
     }
 
     .spicy-video-box > video {
         height: 100%;
+    }
+
+    .footer {
+        height: 40vh;
     }
 }
 
 
 @media screen and (min-width: 1400px){
     .interface-video-box > video {
-        height: 120%;
+        height: 100%;
     }
 
     .spicy-video-box > video {
-        height: 110%;
+        height: 100%;
+    }
+
+    .footer {
+        height: 40vh;
     }
 }
 
@@ -340,11 +384,19 @@ video {
     .spicy-video-box > video {
         height: 80%;
     }
+
+    .footer {
+        height: 40vh;
+    }
 }
 
 @media screen and (min-width: 1800px){
     .spicy-video-box > video {
         height: 90%;
+    }
+
+    .footer {
+        height: 40vh;
     }
 }
 
@@ -352,16 +404,28 @@ video {
     .spicy-video-box > video {
         height: 110%;
     }
+
+    .footer {
+        height: 40vh;
+    }
 }
 
 @media screen and (min-width: 2400px){
     .spicy-video-box > video {
         height: 130%;
     }
+
+    .footer {
+        height: 40vh;
+    }
 }
 
 @media screen and (min-width: 2800px){
     .spicy-video-box > video {
         height: 150%;
+    }
+
+    .footer {
+        height: 40vh;
     }
 }
