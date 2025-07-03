@@ -99,6 +99,10 @@ h1 {
     text-align: center;
 }
 
+.main-text > h1 {
+    color: rgb(23, 193, 111);
+}
+
 .main-btns {
     padding-top: 200px;
     display: flex;
@@ -121,16 +125,20 @@ h1 {
 
 .btn-linux, .btn-windows {
     height: 80px;
+    overflow-y: hidden;
+    font-family: "Sono", monospace;
 }
 
 .btn-linux > img {
     margin-left: 10px;
     height: 100%;
+    /* overflow-y: hidden; */
 }
 
 .btn-windows > img {
     padding-left: 10px;
     height: 100%;
+    /* overflow-y: hidden; */
 }
 
 
@@ -167,6 +175,10 @@ h1 {
     text-align: center;
 }
 
+.spicy-text > h1 {
+    color: rgb(23, 193, 111);
+}
+
 
 .spicy-video-box {
     display: flex;
@@ -195,6 +207,10 @@ h1 {
 
 .interface-text {
     text-align: center;
+}
+
+.interface-text > h1 {
+    color: rgb(23, 193, 111);
 }
 
 
@@ -249,6 +265,11 @@ h1 {
 .free-text {
     text-align: center;
 }
+
+.free-text > h1 {
+    color: rgb(23, 193, 111);
+}
+
 
 video {
     border-radius: 6px;
@@ -316,6 +337,7 @@ video {
 
 .preloader > h1 {
     font-size: xx-large;
+    color: beige;
 }
 
 .pre-img {

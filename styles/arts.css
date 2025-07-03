@@ -14,5 +14,9 @@
 }
 
 .artist-name {
-    color: rgb(0, 212, 71);
+    color: rgb(23, 193, 111);
+}
+
+.free-text > h1 {
+    color: beige !important;
 }
