@@ -299,6 +299,37 @@ video {
     height: auto;
 }
 
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    transition: 1.8s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.preloader > h1 {
+    font-size: xx-large;
+}
+
+.pre-img {
+    width: 200px;
+    height: 200px;
+    /* margin-right: 15px; */
+}
+
+.pre-img > img {
+    height: auto;
+    width: 100%;
+}
+
+
 
 @media screen and (max-width: 576px){
     .footer {
