@@ -483,9 +483,16 @@ video {
     }
     /* ======================================================================================= */
 
+    .logo {
+        padding-top: 100px;
+    }
+
+    .main-btns {
+        padding-top: 50px;
+    }
 
     .spicy-part > .spicy-photo > .container {
-        margin-left: 15%;
+        margin-left: 17%;
         margin-bottom: 4vh;
         height: 300px;
         width: 300px;
