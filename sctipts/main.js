@@ -1,12 +1,18 @@
-window.addEventListener('load', function () {
-    let preloader = document.querySelector('.preloader');
-    window.setTimeout(() => {
-        preloader.style.opacity = 0;
-    }, 1000)
-    window.setTimeout(() => {
-        preloader.style.display = 'none';
-    }, 3000)
-})
+
+// прелоадер ливает в минус. 
+// Но всё же я его не полностью убрал с кода а только
+// засунул его в коменты. Вдруг ещё понадобиться ;D.
+
+
+// window.addEventListener('load', function () {
+//     let preloader = document.querySelector('.preloader');
+//     window.setTimeout(() => {
+//         preloader.style.opacity = 0;
+//     }, 1000)
+//     window.setTimeout(() => {
+//         preloader.style.display = 'none';
+//     }, 3000)
+// })
 
 
 //========== ESSENTIAL CARDS ==========
