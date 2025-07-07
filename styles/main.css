@@ -52,6 +52,7 @@ h1 {
 
 .navbar {
     background-color: rgb(9,9,9);
+    position: absolute;
 }
 
 .navbar-nav {
@@ -163,6 +164,7 @@ h1 {
     align-items: center;
     /* background-color: chocolate; */
     background-color: rgb(9,9,9);
+    overflow: hidden;
 }
 
 .spicy-video {
@@ -224,15 +226,15 @@ h1 {
     /* background-color: aquamarine; */
 }
 
-.interface-video-box > video {
-    /* height: 100% !important;
-    width: 100% !important; */
+/* .interface-video-box > video {
+    height: 100% !important;
+    width: 100% !important;
 }
 
 .spicy-video-box > video {
-    /* height: 100% !important;
-    width: 100% !important; */
-}
+    height: 100% !important;
+    width: 100% !important;
+} */
 
 .free-part {
     align-items: center;
@@ -351,15 +353,232 @@ video {
     width: 100%;
 }
 
+/* щас шаманить буду) */
+
+.spicy-part > .spicy-photo > *::after,
+.spicy-part > .spicy-photo > *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.spicy-part > .spicy-photo > .container > .image-container > img {
+    display: block;
+    max-width: 100%;
+}
+
+.spicy-part > .spicy-photo {
+    display: grid;
+    place-items: center;
+    /* min-height: 100vh; */
+    padding: 0;
+}
+
+.spicy-part > .spicy-photo > .container {
+    display: grid;
+    place-content: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.3rem;
+    --position: 50%;
+    padding: 0;
+    /* margin: 0; */
+    /* margin-left: ; */
+    /* margin-right: 50%; */
+    border: 2px solid rgb(46, 46, 46);
+    box-sizing: border-box;
+}
+
+.image-container {
+    max-width: 800px;
+    max-height: 50vh;
+    /* padding: 0; */
+    /* margin: 0; */
+    box-sizing: border-box;
+
+    aspect-ratio: 1/1;
+}
+
+.spicy-part > .spicy-photo > .container > .image-container > .slider-image {
+    width: 100%;
+    height: 100%;
+    /* inset: 0; */
+    object-fit: cover;
+    object-position: left;
+}
+
+.spicy-part > .spicy-photo > .container > .image-container > .image-before {
+    position: absolute;
+    inset: 0;
+    width: var(--position);
+    /* height: 100%; */
+}
+
+.spicy-part > .spicy-photo > .container > .image-container > .image-after {
+    /* position: absolute; */
+    /* inset: 0; */
+    /* width: var(--position); */
+    /* width: 500px; */
+    /* height: 500px; */
+    /* object-position: center; */
+}
+
+.slider {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+    opacity: 0;
+
+    /* for firefox */
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.slider-line {
+    position: absolute;
+    inset: 0;
+    width: .1rem;
+    height: 100%;
+    background-color: rgb(46, 46, 46);
+    z-index: 10;
+    left: var(--position);
+    transform: translateX(-50%);
+    pointer-events: none;
+}
+
+.slider-button {
+    position: absolute;
+    background-color: rgb(14, 14, 14);
+    color: beige;
+    padding: .5rem;
+    border-radius: 100vw;
+    display: grid;
+    place-items: center;
+    top: 50%;
+    left: var(--position);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 100;
+}
+
+.slider:focus-visible ~ .slider-button {
+    /* here active style */
+}
+
+
+
 
 
 @media screen and (max-width: 576px){
+
+    /* уменьшаем размеры секторов вебсайта, чтобы не было такого большого отсутпа на телефонах */
+    .spicy-part {
+        height: auto;
+        padding-bottom: 10vh;
+    }
+
+    .interface-part {
+        height: auto;
+        padding-top: 10vh;
+    }
+    /* ======================================================================================= */
+
+
+    .spicy-part > .spicy-photo > .container {
+        margin-left: 15%;
+        margin-bottom: 4vh;
+        height: 300px;
+        width: 300px;
+        margin-top: 4vh;
+    }
+
+    /* уменьшаем текст для смартиков */
+    .main-text > h1 {
+        font-size: x-large;
+    }
+
+    .main-text > h2 {
+        font-size: large;
+    }
+
+    .main-text > h3 {
+        font-size: large;
+    }
+
+    .spicy-text > h1 {
+        font-size: x-large;
+    }
+
+    .spicy-text > h3 {
+        font-size: large;
+    }
+
+    .interface-text > h1 {
+        font-size: x-large;
+    }
+
+    .interface-text > h3 {
+        font-size: large;
+    }
+
+    .free-text > h1 {
+        font-size: x-large;
+    }
+
+    .free-text > h3 {
+        font-size: large;
+    }
+
+    .footer > .copyright > h3 {
+        font-size: large;
+    }
+    /* ============================ */
+
+
+    /* дальше настройки фото */
+
     .footer {
-        height: 60vh;
+        height: 30vh;
+    }
+
+    .footer > .footer-logo > img {
+        height: 100px;
+    }
+
+    .links > a > img {
+        height: 80px;
     }
 }
 
 @media screen and (min-width: 576px){
+
+    /* .main-text > h1 {
+        font-size: x-large;
+    }
+
+    .main-text > h2 {
+        font-size: large;
+    }
+
+    .spicy-text > h1 {
+        font-size: x-large;
+    }
+
+    .spicy-text > h3 {
+        font-size: large;
+    }
+
+    .interface-text > h1 {
+        font-size: x-large;
+    }
+
+    .interface-text > h3 {
+        font-size: large;
+    } */
+
+
+    /* дальше настройки фото */
+
     .interface-video-box > video {
         height: 60%;
     }
@@ -370,6 +589,14 @@ video {
 
     .footer {
         height: 60vh;
+    }
+
+    .footer > .footer-logo > img {
+        height: 100px;
+    }
+
+    .links > a > img {
+        height: 80px;
     }
 
 }
@@ -396,6 +623,15 @@ video {
     
     .footer {
         height: 40vh;
+    }
+
+    .spicy-part > .spicy-photo > .container {
+        height: auto;
+    }
+
+    .spicy-part > .spicy-photo > .container > .image-container {
+        width: auto;
+        height: 1200px;
     }
 }
 

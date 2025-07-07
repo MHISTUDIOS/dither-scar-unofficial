@@ -1,6 +1,6 @@
 
 // прелоадер ливает в минус. 
-// Но всё же я его не полностью убрал с кода а только
+// Но всё же я его не полностью убрал из кода а только
 // засунул его в коменты. Вдруг ещё понадобиться ;D.
 
 
@@ -19,7 +19,7 @@
 //============ AND OVERALL ============
 //============ ANIM LOGIC =============
 ScrollReveal({ reset: true });
-ScrollReveal().reveal('.card', { delay: 200 });
+ScrollReveal().reveal('.card', { delay: 100 });
 //=====================================
 
 
@@ -30,17 +30,18 @@ ScrollReveal().reveal('.card', { delay: 200 });
 //#####################################
 
 //============ MAIN PART ==============
-ScrollReveal().reveal('.logo', { delay: 200 });
-ScrollReveal().reveal('.main-btns', { delay: 200 });
-ScrollReveal().reveal('.main-text', { delay: 200 });
+ScrollReveal().reveal('.logo', { delay: 100 });
+ScrollReveal().reveal('.main-btns', { delay: 100 });
+ScrollReveal().reveal('.main-text', { delay: 100 });
+ScrollReveal().reveal('.scroll-down-buddy', { delay: 8000 });
 //=====================================
 
 //============ SPICY PART =============
-ScrollReveal().reveal('.spicy-video', { delay: 200 });
-ScrollReveal().reveal('.spicy-text', { delay: 200 });
+ScrollReveal().reveal('.spicy-video', { delay: 100 });
+ScrollReveal().reveal('.spicy-text', { delay: 100 });
 //=====================================
 
 //========== INTERFACE PART ===========
-ScrollReveal().reveal('.interface-video', { delay: 200 });
-ScrollReveal().reveal('.interface-text', { delay: 200 });
+ScrollReveal().reveal('.interface-video', { delay: 100 });
+ScrollReveal().reveal('.interface-text', { delay: 100 });
 //=====================================
