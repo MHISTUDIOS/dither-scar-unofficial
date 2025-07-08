@@ -3,6 +3,14 @@
     /* overflow-y: hidden; */
     /* height: auto; */
     /* scrollbar-width: none; */
+    /* scrollbar-gutter: overlay !important;*/
+    scroll-margin: 0;
+    /* scrollbar-width: 0; */
+}
+
+::-webkit-scrollbar { 
+    background-color: transparent;
+    width: 7px;
 }
 
 * > h1 {
@@ -30,6 +38,8 @@
 .main-container {
     margin: 0 !important;
     padding: 0 !important;
+    overflow-y: auto;
+    /* scrollbar-width: 0; */
 }
 
 .logo {
@@ -43,7 +53,9 @@
 body {
     margin: 0 !important;
     padding: 0 !important;
-    /* overflow-y: scroll; */
+    /* overflow-y: overlay; */
+    overflow: hidden;
+    /* padding-right: calc(100vw - 100%) !important; */
 }
 
 h1 {
@@ -566,6 +578,15 @@ video {
     .footer > .copyright > h3 {
         font-size: large;
     }
+
+    .navbar > .container-fluid > .navbar-collapse > .navbar-nav > a > h3 {
+        font-size: large;
+    }
+
+    .navbar > .container-fluid > .navbar-collapse > .navbar-nav > a {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
     /* ============================ */
 
 
@@ -590,6 +611,10 @@ video {
 
     .links > a > img {
         height: 50px;
+    }
+
+    .links > .link-tg {
+        margin-right: 2vh;
     }
 }
 
