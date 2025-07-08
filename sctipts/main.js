@@ -49,7 +49,22 @@ ScrollReveal().reveal('.interface-text', { delay: 100 });
 
 // tryin to fix mansory #2
 
-Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
-	var msnry = new Masonry('.grid');
-	msnry.layout();
-});
+// Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
+// 	var msnry = new Masonry('.grid');
+// 	msnry.layout();
+// });
+
+
+// tryin to fix mansory #3
+
+// init Masonry
+ var $grid = $('.grid').masonry({
+   itemSelector: '.grid-item',
+   percentPosition: true,
+   columnWidth: '.grid-sizer'
+ });
+
+ // layout Masonry after each image loads
+ $grid.imagesLoaded().progress( function() {
+   $grid.masonry();
+ });
