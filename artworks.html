@@ -423,6 +423,16 @@
     <!-- JS starts here -->
 
     <script src="./sctipts/main.js"></script> 
+
+    <script> 
+        // init Masonry first?
+        $('.row').masonry();
+
+        // layout Masonry after each image loads
+        $('.container').imagesLoaded().progress( function() {
+          $('.row').masonry('layout');
+        });
+    </script>
   
     <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js" sync></script> -->
     <!-- -------------- -->
