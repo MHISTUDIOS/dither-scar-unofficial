@@ -20,3 +20,7 @@
 .free-text > h1 {
     color: beige !important;
 }
+
+.cards-part > .container {
+    height: auto;
+}

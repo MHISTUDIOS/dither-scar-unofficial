@@ -19,7 +19,7 @@
 //============ AND OVERALL ============
 //============ ANIM LOGIC =============
 ScrollReveal({ reset: true });
-ScrollReveal().reveal('.card', { delay: 100 });
+// ScrollReveal().reveal('.card', { delay: 100 });
 //=====================================
 
 
