@@ -17,7 +17,7 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     
     <!-- <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" sync></script> -->
-    <script src="./sctipts/masonry.pkgd.min.js" async></script>
+    <!-- <script src="./sctipts/masonry.pkgd.min.js" sync></script> -->
 
     <title>Dither Scar fan-made website</title>
 </head>
@@ -425,7 +425,7 @@
 
     <script src="./sctipts/main.js"></script> 
 
-    <script> 
+    <!-- <script> 
         // init Masonry first?
         $('.row').masonry();
 
@@ -433,6 +433,14 @@
         $('.container').imagesLoaded().progress( function() {
           $('.row').masonry('layout');
         });
+    </script> -->
+
+    <script>
+        setTimeout(function(){
+        let masonryScript = document.createElement( 'script' );
+        masonryScript.setAttribute('src', 'https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js', 'sync');
+        document.body.appendChild(masonryScript);	
+        }, 1000);
     </script>
   
     <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js" sync></script> -->
