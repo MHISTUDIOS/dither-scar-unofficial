@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <!-- main css logic initiation -->
-    <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./styles/presets.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- main css logic initiation -->
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/presets.css" />
     <!------------------------------------------------>
 
     <!-- fonts initiation -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sono:wght,MONO@200..800,0..1&family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono:wght,MONO@200..800,0..1&family=Syne+Mono&display=swap"
+      rel="stylesheet"
+    />
     <!------------------------------------------------------------------------------------------->
 
-            <!-- bootstrap core initiation -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <!-- bootstrap core initiation -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
     <!------------------------------------------------>
 
-     <!-- my favourite animation sript initiation :D -->
+    <!-- my favourite animation sript initiation :D -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!--------------------------------------------------->
 
@@ -27,381 +39,548 @@
     <script src="./sctipts/masonry.pkgd.min.js" sync></script>
 
     <title>Dither Scar fan-made website</title>
-</head>
-<body>
+  </head>
 
+  <body>
+    <div class="container-fluid main-container">
+      <!-- main container (all content in this container) -->
 
-    
-    <div class="container-fluid main-container">  <!-- main container (all content in this container) -->
+      <nav
+        class="navbar fixed-top navbar-expand-lg border-bottom border-body"
+        data-bs-theme="dark"
+      >
+        <!-- navbar (or menu bar) -->
 
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              src="./data/dither-scar-logo transperent.png"
+              alt=""
+              height="80px"
+            />
+          </a>
 
-        <nav class="navbar fixed-top navbar-expand-lg border-bottom border-body" data-bs-theme="dark"> <!-- navbar (or menu bar) -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-            <div class="container-fluid">
-
-                <a class="navbar-brand" href="./index.html">
-                    <img src="./data/dither-scar-logo transperent.png" alt="" height="80px">
-                </a>
-                
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-
-                    <div class="container-fluid navbar-nav justify-content-arround">
-                      <a class="nav-link" aria-current="page" href="./index.html"><h3>Home</h3></a>
-                      <a class="nav-link" href="./artworks.html"><h3>artworks</h3></a>
-                      <a class="nav-link active" href="#"><h3>presets</h3></a>
-                    </div>
-
-                </div>
-
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="container-fluid navbar-nav justify-content-arround">
+              <a class="nav-link" aria-current="page" href="./index.html"
+                ><h3>Home</h3></a
+              >
+              <a class="nav-link" href="./artworks.html"><h3>artworks</h3></a>
+              <a class="nav-link active" href="#"><h3>presets</h3></a>
             </div>
+          </div>
+        </div>
+      </nav>
 
-        </nav>
-
-
-        <div class="container-fluid main-part">  <!-- main part container -->
-            <div class="logo">
-                <img src="./data/dither-scar-logo transperent.png" alt="">
-            </div>
-
-            <div class="main-text">
-                <h1>presets</h1>
-                <h2>here you can find and download presets for dither-scar</h2>
-            </div>
-
-            <div class="scroll-down-buddy main-text">
-                <h2>scroll down</h2>
-                <h3> ↓ ↓ ↓ </h3>
-            </div>
-
-
-
+      <div class="container-fluid main-part">
+        <!-- main part container -->
+        <div class="logo">
+          <img src="./data/dither-scar-logo transperent.png" alt="" />
         </div>
 
-
-   <div class="album py-5 cards-part">
-
-        <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2" data-masonry='{"percentPosition": true }'>
-
-                <div class="col">
-                    <div class="card"> 
-                        
-                        <img src="./data/presets/pics/1-pixelate_castle.jpg" alt="" width="100%" height="auto">
-
-                        <div class="card-body">
-                            <p class="card-text">Preset name: <span class="preset-name">pixelate castle</span></p>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group"> 
-                                <a href="./data/presets/files/pixelate_castle.json" download="1-pixelate_castle"> <button type="button" class="btn btn-sm btn-outline-secondary">download</button> </a> 
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col">
-                    <div class="card"> 
-                        
-                        <img src="./data/presets/pics/2-noized_grey.jpg" alt="" width="100%" height="auto">
-
-                        <div class="card-body">
-                            <p class="card-text">Preset name: <span class="preset-name">noized grey</span> </p>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group"> 
-                                <a href="./data/presets/files/noized-grey.json" download="2-noized_grey"> <button type="button" class="btn btn-sm btn-outline-secondary">download</button> </a> 
-                            </div> 
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col">
-                    <div class="card"> 
-                        
-                        <img src="./data/presets/pics/3-gradient_dither_soft.jpg" alt="" width="100%" height="auto">
-
-                        <div class="card-body">
-                            <p class="card-text">Preset name: <span class="preset-name">gradient dither soft</span> </p>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group"> 
-                                <a href="./data/presets/files/gradient_dither_soft.json" download="3-gradient_dither_soft"> <button type="button" class="btn btn-sm btn-outline-secondary">download</button> </a> 
-                            </div> 
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col">
-                    <div class="card"> 
-                        
-                        <img src="./data/presets/pics/4-Creepy_red.jpg" alt="" width="100%" height="auto">
-
-                        <div class="card-body">
-                            <p class="card-text">Preset name: <span class="preset-name">Creepy red</span> </p>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group"> 
-                                <a href="./data/presets/files/creepy_red.json" download="4-Creepy_red"> <button type="button" class="btn btn-sm btn-outline-secondary">download</button> </a> 
-                            </div> 
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col">
-                    <div class="card"> 
-                        
-                        <img src="./data/presets/pics/5-pat_frog.jpg" alt="" width="100%" height="auto">
-
-                        <div class="card-body">
-                            <p class="card-text">Preset name: <span class="preset-name">pat frog</span> </p>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group"> 
-                                <a href="./data/presets/files/pat_frog.json" download="5-pat_frog"> <button type="button" class="btn btn-sm btn-outline-secondary">download</button> </a> 
-                            </div> 
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col">
-                    <div class="card"> 
-                        
-                        <img src="./data/presets/pics/6-pix-catjpg.jpg" alt="" width="100%" height="auto">
-
-                        <div class="card-body">
-                            <p class="card-text">Preset name: <span class="preset-name">pix cat</span> </p>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group"> 
-                                <a href="./data/presets/files/pix_cat.json" download="6-pix-cat"> <button type="button" class="btn btn-sm btn-outline-secondary">download</button> </a> 
-                            </div> 
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col">
-                    <div class="card"> 
-                        
-                        <img src="./data/presets/pics/7-web6.jpg" alt="" width="100%" height="auto">
-
-                        <div class="card-body">
-                            <p class="card-text">Preset name: <span class="preset-name">web6</span> </p>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group"> 
-                                <a href="./data/presets/files/web6.json" download="7-web6"> <button type="button" class="btn btn-sm btn-outline-secondary">download</button> </a> 
-                            </div> 
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col">
-                    <div class="card"> 
-                        
-                        <img src="./data/presets/pics/8-k1.jpg" alt="" width="100%" height="auto">
-
-                        <div class="card-body">
-                            <p class="card-text">Preset name: <span class="preset-name">k1</span> </p>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group"> 
-                                <a href="./data/presets/files/k1.json" download="8-k1"> <button type="button" class="btn btn-sm btn-outline-secondary">download</button> </a> 
-                            </div> 
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col">
-                    <div class="card"> 
-                        
-                        <img src="./data/presets/pics/9-66B.jpg" alt="" width="100%" height="auto">
-
-                        <div class="card-body">
-                            <p class="card-text">Preset name: <span class="preset-name">66B</span> </p>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group"> 
-                                <a href="./data/presets/files/preset_66в.json" download="9-66B"> <button type="button" class="btn btn-sm btn-outline-secondary">download</button> </a> 
-                            </div> 
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col">
-                    <div class="card"> 
-                        
-                        <img src="./data/presets/pics/10-dd2.jpg" alt="" width="100%" height="auto">
-
-                        <div class="card-body">
-                            <p class="card-text">Preset name: <span class="preset-name">dd2</span> </p>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group"> 
-                                <a href="./data/presets/files/dd2.json" download="10-dd2"> <button type="button" class="btn btn-sm btn-outline-secondary">download</button> </a> 
-                            </div> 
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col">
-                    <div class="card"> 
-                        
-                        <img src="./data/presets/pics/11-es1.jpg" alt="" width="100%" height="auto">
-
-                        <div class="card-body">
-                            <p class="card-text">Preset name: <span class="preset-name">es1</span> </p>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group"> 
-                                <a href="./data/presets/files/es1.json" download="11-es1"> <button type="button" class="btn btn-sm btn-outline-secondary">download</button> </a> 
-                            </div> 
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col">
-                    <div class="card"> 
-                        
-                        <img src="./data/presets/pics/12-Freq_adapt_blue_1-5.jpg" alt="" width="100%" height="auto">
-
-                        <div class="card-body">
-                            <p class="card-text">Preset name: <span class="preset-name">Freq. adapt blue</span> </p>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group"> 
-                                <a href="./data/presets/files/freq.json" download="12-Freq_adapt_blue_1-5"> <button type="button" class="btn btn-sm btn-outline-secondary">download</button> </a> 
-                            </div> 
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col">
-                    <div class="card"> 
-                        
-                        <img src="./data/presets/pics/13-tr3mod1.jpg" alt="" width="100%" height="auto">
-
-                        <div class="card-body">
-                            <p class="card-text">Preset name: <span class="preset-name">tr3mod1</span> </p>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group"> 
-                                <a href="./data/presets/files/tr3mod1.json" download="13-tr3mod1"> <button type="button" class="btn btn-sm btn-outline-secondary">download</button> </a> 
-                            </div> 
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <div class="col">
-                    <div class="card"> 
-                        
-                        <img src="./data/presets/pics/14-f4tee.jpg" alt="" width="100%" height="auto">
-
-                        <div class="card-body">
-                            <p class="card-text">Preset name: <span class="preset-name">f4tee</span> </p>
-                        </div>
-
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group"> 
-                                <a href="./data/presets/files/f4tee.json" download="14-f4tee"> <button type="button" class="btn btn-sm btn-outline-secondary">download</button> </a> 
-                            </div> 
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </div>
+        <div class="main-text">
+          <h1>presets</h1>
+          <h2>here you can find and download presets for dither-scar</h2>
         </div>
 
-        
-        <footer class="container-fluid row footer">
+        <div class="scroll-down-buddy main-text">
+          <h2>scroll down</h2>
+          <h3>↓ ↓ ↓</h3>
+        </div>
+      </div>
+    </div>
+    <div class="album py-5 cards-part">
+      <div class="container">
+        <div
+          class="grid row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2"
+          data-masonry='{"percentPosition": true }'
+        >
+          <div class="col grid-item">
+            <div class="card">
+              <img
+                src="./data/presets/pics/1-pixelate_castle.jpg"
+                alt=""
+                width="100%"
+                height="auto"
+              />
 
-            <!-- <div class="col-md-auto footer-logo">
+              <div class="card-body">
+                <p class="card-text">
+                  Preset name: <span class="preset-name">pixelate castle</span>
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a
+                    href="./data/presets/files/pixelate_castle.json"
+                    download="1-pixelate_castle"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      download
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col grid-item">
+            <div class="card">
+              <img
+                src="./data/presets/pics/2-noized_grey.jpg"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Preset name: <span class="preset-name">noized grey</span>
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a
+                    href="./data/presets/files/noized-grey.json"
+                    download="2-noized_grey"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      download
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col grid-item">
+            <div class="card">
+              <img
+                src="./data/presets/pics/3-gradient_dither_soft.jpg"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Preset name:
+                  <span class="preset-name">gradient dither soft</span>
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a
+                    href="./data/presets/files/gradient_dither_soft.json"
+                    download="3-gradient_dither_soft"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      download
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col grid-item">
+            <div class="card">
+              <img
+                src="./data/presets/pics/4-Creepy_red.jpg"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Preset name: <span class="preset-name">Creepy red</span>
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a
+                    href="./data/presets/files/creepy_red.json"
+                    download="4-Creepy_red"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      download
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col grid-item">
+            <div class="card">
+              <img
+                src="./data/presets/pics/5-pat_frog.jpg"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Preset name: <span class="preset-name">pat frog</span>
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a
+                    href="./data/presets/files/pat_frog.json"
+                    download="5-pat_frog"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      download
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col grid-item">
+            <div class="card">
+              <img
+                src="./data/presets/pics/6-pix-catjpg.jpg"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Preset name: <span class="preset-name">pix cat</span>
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a
+                    href="./data/presets/files/pix_cat.json"
+                    download="6-pix-cat"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      download
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="./data/presets/pics/7-web6.jpg"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Preset name: <span class="preset-name">web6</span>
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="./data/presets/files/web6.json" download="7-web6">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      download
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="./data/presets/pics/8-k1.jpg"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Preset name: <span class="preset-name">k1</span>
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="./data/presets/files/k1.json" download="8-k1">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      download
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="./data/presets/pics/9-66B.jpg"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Preset name: <span class="preset-name">66B</span>
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a
+                    href="./data/presets/files/preset_66в.json"
+                    download="9-66B"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      download
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="./data/presets/pics/10-dd2.jpg"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Preset name: <span class="preset-name">dd2</span>
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="./data/presets/files/dd2.json" download="10-dd2">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      download
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="./data/presets/pics/11-es1.jpg"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Preset name: <span class="preset-name">es1</span>
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="./data/presets/files/es1.json" download="11-es1">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      download
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="./data/presets/pics/12-Freq_adapt_blue_1-5.jpg"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Preset name: <span class="preset-name">Freq. adapt blue</span>
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a
+                    href="./data/presets/files/freq.json"
+                    download="12-Freq_adapt_blue_1-5"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      download
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="./data/presets/pics/13-tr3mod1.jpg"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Preset name: <span class="preset-name">tr3mod1</span>
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a
+                    href="./data/presets/files/tr3mod1.json"
+                    download="13-tr3mod1"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      download
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="./data/presets/pics/14-f4tee.jpg"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Preset name: <span class="preset-name">f4tee</span>
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="./data/presets/files/f4tee.json" download="14-f4tee">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      download
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="container-fluid row footer">
+        <!-- <div class="col-md-auto footer-logo">
                 <img src="./data/dither-scar-logo transperent.png" alt="logo">
             </div> -->
 
+        <div class="container-fluid col-sm-auto col-md-8 links">
+          <a href="https://t.me/dither_scar">
+            <img src="./data/telegram.png" alt="telegram" srcset="" />
+          </a>
 
-            <div class="container-fluid col-sm-auto col-md-8 links">
-                <a href="https://t.me/dither_scar">
-                    <img src="./data/telegram.png" alt="telegram" srcset="">
-                </a>
+          <a href="https://www.tiktok.com/@gideramp">
+            <img src="./data/tiktok.png" alt="tiktok" srcset="" />
+          </a>
+        </div>
 
-                <a href="https://www.tiktok.com/@gideramp">
-                    <img src="./data/tiktok.png" alt="tiktok" srcset="">
-                </a>
-            </div>
-
-            <div class="container-fluid col-md-auto copyright">
-                <h3>© 2025 dither-scar <br> All rights reserved.</h3>
-            </div>
-
-        </footer>
-
+        <div class="container-fluid col-md-auto copyright">
+          <h3>
+            © 2025 dither-scar <br />
+            All rights reserved.
+          </h3>
+        </div>
+      </footer>
     </div>
 
-
-
-
-
-
-
-    <!-- JS starts here -->
-
     <script src="./sctipts/main.js"></script>
-
-    <script> 
-        // init Masonry first?
-        $('.row').masonry();
-
-        // layout Masonry after each image loads
-        $('.container').imagesLoaded().progress( function() {
-          $('.row').masonry('layout');
-        });
-    </script>
-
-    <!-- <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
-    <!-- -------------- -->
-</body>
+  </body>
 </html>
